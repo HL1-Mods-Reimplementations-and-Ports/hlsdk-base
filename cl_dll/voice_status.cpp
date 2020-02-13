@@ -648,10 +648,10 @@ void CVoiceStatus::HandleVoiceMaskMsg(int iSize, void *pbuf)
 			char str[256];
 			gEngfuncs.pfnConsolePrint("CVoiceStatus::HandleVoiceMaskMsg\n");
 			
-			std::sprintf(str, "    - m_AudiblePlayers[%d] = %u\n", dw, m_AudiblePlayers.GetDWord(dw));
+			std::sprintf(str, "    - m_AudiblePlayers[%lu] = %u\n", dw, m_AudiblePlayers.GetDWord(dw));
 			gEngfuncs.pfnConsolePrint(str);
 			
-			std::sprintf(str, "    - m_ServerBannedPlayers[%d] = %u\n", dw, m_ServerBannedPlayers.GetDWord(dw));
+			std::sprintf(str, "    - m_ServerBannedPlayers[%lu] = %u\n", dw, m_ServerBannedPlayers.GetDWord(dw));
 			gEngfuncs.pfnConsolePrint(str);
 		}
 	}
