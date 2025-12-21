@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2025-12-21
+
+### Fixed
+
+- Fix m_rawinput 1 getting mouse stuck in box (Thanks Solokiller)
+
 ## [1.0.0] - 2021-11-07
 
 ### Added
