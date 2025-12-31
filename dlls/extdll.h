@@ -42,9 +42,7 @@
 #define NOMCX
 #define NOIME
 #define NOMINMAX
-#include "winsani_in.h"
 #include <windows.h>
-#include "winsani_out.h"
 #else // _WIN32
 #define FALSE 0
 #define TRUE (!FALSE)

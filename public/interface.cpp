@@ -106,9 +106,7 @@ static IBaseInterface *CreateInterfaceLocal( const char *pName, int *pReturnCode
 
 #ifdef _WIN32
 #define WIN32_LEAN_AND_MEAN
-#include "winsani_in.h"
 #include <windows.h>
-#include "winsani_out.h"
 #endif
 
 //-----------------------------------------------------------------------------

@@ -36,9 +36,7 @@ extern "C" {
 
 #ifdef _WIN32
 #define NOMINMAX
-#include "winsani_in.h"
 #include <windows.h>
-#include "winsani_out.h"
 #endif
 
 // this file is included by both the engine and the client-dll,

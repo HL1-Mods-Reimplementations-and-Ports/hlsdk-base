@@ -37,9 +37,7 @@ extern "C"
 #include "mod_config.h"
 
 #ifdef _WIN32
-#include "winsani_in.h"
 #include <windows.h>
-#include "winsani_out.h"
 #endif
 #include "Exports.h"
 #
