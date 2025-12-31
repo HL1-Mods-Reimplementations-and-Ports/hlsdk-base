@@ -246,7 +246,7 @@ void CL_DLLEXPORT IN_ActivateMouse (void)
 	}
 
 #ifdef _WIN32
-	if (!m_bRawInput)
+	if (!IN_UseRawInput())
 	{
 		SDL_SetRelativeMouseMode(SDL_FALSE);
 		mouseRelative = SDL_FALSE;
@@ -281,7 +281,7 @@ void CL_DLLEXPORT IN_DeactivateMouse (void)
 	}
 
 #ifdef _WIN32
-	if (m_bRawInput)
+	if (IN_UseRawInput())
 	{
 		mouseRelative = SDL_FALSE;
 	}
@@ -639,12 +639,12 @@ void IN_MouseMove ( float frametime, usercmd_t *cmd)
 	gEngfuncs.SetViewAngles( (float *)viewangles );
 
 #ifdef _WIN32
-	if (!m_bRawInput && mouseRelative)
+	if (!IN_UseRawInput() && mouseRelative)
 	{
 		SDL_SetRelativeMouseMode(SDL_FALSE);
 		mouseRelative = SDL_FALSE;
 	}
-	else if (m_bRawInput && !mouseRelative)
+	else if (IN_UseRawInput() && !mouseRelative)
 	{
 		SDL_SetRelativeMouseMode(SDL_TRUE);
 		mouseRelative = SDL_TRUE;
