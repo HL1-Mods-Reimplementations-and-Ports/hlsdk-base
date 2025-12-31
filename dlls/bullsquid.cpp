@@ -392,7 +392,7 @@ BOOL CBullsquid :: FValidateHintType ( short sHint )
 		HINT_WORLD_HUMAN_BLOOD,
 	};
 
-	for ( i = 0 ; i < ARRAYSIZE ( sSquidHints ) ; i++ )
+	for ( i = 0 ; i < ARRAY_SIZE ( sSquidHints ) ; i++ )
 	{
 		if ( sSquidHints[ i ] == sHint )
 		{
@@ -816,7 +816,7 @@ Schedule_t	slSquidRangeAttack1[] =
 {
 	{ 
 		tlSquidRangeAttack1,
-		ARRAYSIZE ( tlSquidRangeAttack1 ), 
+		ARRAY_SIZE ( tlSquidRangeAttack1 ), 
 		bits_COND_NEW_ENEMY			|
 		bits_COND_ENEMY_DEAD		|
 		bits_COND_HEAVY_DAMAGE		|
@@ -840,7 +840,7 @@ Schedule_t slSquidChaseEnemy[] =
 {
 	{ 
 		tlSquidChaseEnemy1,
-		ARRAYSIZE ( tlSquidChaseEnemy1 ),
+		ARRAY_SIZE ( tlSquidChaseEnemy1 ),
 		bits_COND_NEW_ENEMY			|
 		bits_COND_ENEMY_DEAD		|
 		bits_COND_SMELL_FOOD		|
@@ -868,7 +868,7 @@ Schedule_t slSquidHurtHop[] =
 {
 	{
 		tlSquidHurtHop,
-		ARRAYSIZE ( tlSquidHurtHop ),
+		ARRAY_SIZE ( tlSquidHurtHop ),
 		0,
 		0,
 		"SquidHurtHop"
@@ -887,7 +887,7 @@ Schedule_t slSquidSeeCrab[] =
 {
 	{
 		tlSquidSeeCrab,
-		ARRAYSIZE ( tlSquidSeeCrab ),
+		ARRAY_SIZE ( tlSquidSeeCrab ),
 		bits_COND_LIGHT_DAMAGE		|
 		bits_COND_HEAVY_DAMAGE,
 		0,
@@ -918,7 +918,7 @@ Schedule_t slSquidEat[] =
 {
 	{
 		tlSquidEat,
-		ARRAYSIZE( tlSquidEat ),
+		ARRAY_SIZE( tlSquidEat ),
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
 		bits_COND_NEW_ENEMY	,
@@ -956,7 +956,7 @@ Schedule_t slSquidSniffAndEat[] =
 {
 	{
 		tlSquidSniffAndEat,
-		ARRAYSIZE( tlSquidSniffAndEat ),
+		ARRAY_SIZE( tlSquidSniffAndEat ),
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
 		bits_COND_NEW_ENEMY	,
@@ -990,7 +990,7 @@ Schedule_t slSquidWallow[] =
 {
 	{
 		tlSquidWallow,
-		ARRAYSIZE( tlSquidWallow ),
+		ARRAY_SIZE( tlSquidWallow ),
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
 		bits_COND_NEW_ENEMY	,

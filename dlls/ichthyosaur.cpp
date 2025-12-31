@@ -184,7 +184,7 @@ const char *CIchthyosaur::pDieSounds[] =
 };
 
 #define EMIT_ICKY_SOUND( chan, array ) \
-	EMIT_SOUND_DYN ( ENT(pev), chan , array [ RANDOM_LONG(0,ARRAYSIZE( array )-1) ], 1.0, 0.6, 0, RANDOM_LONG(95,105) ); 
+	EMIT_SOUND_DYN ( ENT(pev), chan , array [ RANDOM_LONG(0,ARRAY_SIZE( array )-1) ], 1.0, 0.6, 0, RANDOM_LONG(95,105) ); 
 
 
 void CIchthyosaur :: IdleSound( void )	
@@ -241,7 +241,7 @@ static Schedule_t	slSwimAround[] =
 {
 	{ 
 		tlSwimAround,
-		ARRAYSIZE(tlSwimAround), 
+		ARRAY_SIZE(tlSwimAround), 
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
 		bits_COND_SEE_ENEMY		|
@@ -264,7 +264,7 @@ static Schedule_t	slSwimAgitated[] =
 {
 	{ 
 		tlSwimAgitated,
-		ARRAYSIZE(tlSwimAgitated), 
+		ARRAY_SIZE(tlSwimAgitated), 
 		0, 
 		0, 
 		"SwimAgitated"
@@ -282,7 +282,7 @@ static Schedule_t	slCircleEnemy[] =
 {
 	{ 
 		tlCircleEnemy,
-		ARRAYSIZE(tlCircleEnemy), 
+		ARRAY_SIZE(tlCircleEnemy), 
 		bits_COND_NEW_ENEMY		|
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
@@ -306,7 +306,7 @@ Schedule_t slTwitchDie[] =
 {
 	{
 		tlTwitchDie,
-		ARRAYSIZE( tlTwitchDie ),
+		ARRAY_SIZE( tlTwitchDie ),
 		0,
 		0,
 		"Die"

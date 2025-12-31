@@ -146,7 +146,7 @@ BOOL CHoundeye :: FValidateHintType ( short sHint )
 		HINT_WORLD_ALIEN_BLOOD,
 	};
 
-	for ( i = 0 ; i < ARRAYSIZE ( sHoundHints ) ; i++ )
+	for ( i = 0 ; i < ARRAY_SIZE ( sHoundHints ) ; i++ )
 	{
 		if ( sHoundHints[ i ] == sHint )
 		{
@@ -899,7 +899,7 @@ Schedule_t	slHoundGuardPack[] =
 {
 	{ 
 		tlHoundGuardPack,
-		ARRAYSIZE ( tlHoundGuardPack ), 
+		ARRAY_SIZE ( tlHoundGuardPack ), 
 		bits_COND_SEE_HATE		|
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
@@ -934,7 +934,7 @@ Schedule_t	slHoundRangeAttack[] =
 {
 	{ 
 		tlHoundYell1,
-		ARRAYSIZE ( tlHoundYell1 ), 
+		ARRAY_SIZE ( tlHoundYell1 ), 
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE,
 		0,
@@ -942,7 +942,7 @@ Schedule_t	slHoundRangeAttack[] =
 	},
 	{ 
 		tlHoundYell2,
-		ARRAYSIZE ( tlHoundYell2 ), 
+		ARRAY_SIZE ( tlHoundYell2 ), 
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE,
 		0,
@@ -969,7 +969,7 @@ Schedule_t	slHoundSleep[] =
 {
 	{ 
 		tlHoundSleep,
-		ARRAYSIZE ( tlHoundSleep ), 
+		ARRAY_SIZE ( tlHoundSleep ), 
 		bits_COND_HEAR_SOUND	|
 		bits_COND_LIGHT_DAMAGE	|
 		bits_COND_HEAVY_DAMAGE	|
@@ -996,7 +996,7 @@ Schedule_t	slHoundWakeLazy[] =
 {
 	{
 		tlHoundWakeLazy,
-		ARRAYSIZE ( tlHoundWakeLazy ),
+		ARRAY_SIZE ( tlHoundWakeLazy ),
 		0,
 		0,
 		"WakeLazy"
@@ -1016,7 +1016,7 @@ Schedule_t	slHoundWakeUrgent[] =
 {
 	{
 		tlHoundWakeUrgent,
-		ARRAYSIZE ( tlHoundWakeUrgent ),
+		ARRAY_SIZE ( tlHoundWakeUrgent ),
 		0,
 		0,
 		"WakeUrgent"
@@ -1036,7 +1036,7 @@ Schedule_t	slHoundSpecialAttack1[] =
 {
 	{ 
 		tlHoundSpecialAttack1,
-		ARRAYSIZE ( tlHoundSpecialAttack1 ), 
+		ARRAY_SIZE ( tlHoundSpecialAttack1 ), 
 		bits_COND_NEW_ENEMY			|
 		bits_COND_LIGHT_DAMAGE		|
 		bits_COND_HEAVY_DAMAGE		|
@@ -1057,7 +1057,7 @@ Schedule_t	slHoundAgitated[] =
 {
 	{ 
 		tlHoundAgitated,
-		ARRAYSIZE ( tlHoundAgitated ), 
+		ARRAY_SIZE ( tlHoundAgitated ), 
 		bits_COND_NEW_ENEMY			|
 		bits_COND_LIGHT_DAMAGE		|
 		bits_COND_HEAVY_DAMAGE,
@@ -1077,7 +1077,7 @@ Schedule_t	slHoundHopRetreat[] =
 {
 	{ 
 		tlHoundHopRetreat,
-		ARRAYSIZE ( tlHoundHopRetreat ), 
+		ARRAY_SIZE ( tlHoundHopRetreat ), 
 		0,
 		0,
 		"Hound Hop Retreat"
@@ -1096,7 +1096,7 @@ Schedule_t	slHoundCombatFailPVS[] =
 {
 	{ 
 		tlHoundCombatFailPVS,
-		ARRAYSIZE ( tlHoundCombatFailPVS ), 
+		ARRAY_SIZE ( tlHoundCombatFailPVS ), 
 		bits_COND_NEW_ENEMY			|
 		bits_COND_LIGHT_DAMAGE		|
 		bits_COND_HEAVY_DAMAGE,
@@ -1119,7 +1119,7 @@ Schedule_t	slHoundCombatFailNoPVS[] =
 {
 	{ 
 		tlHoundCombatFailNoPVS,
-		ARRAYSIZE ( tlHoundCombatFailNoPVS ), 
+		ARRAY_SIZE ( tlHoundCombatFailNoPVS ), 
 		bits_COND_NEW_ENEMY			|
 		bits_COND_LIGHT_DAMAGE		|
 		bits_COND_HEAVY_DAMAGE,

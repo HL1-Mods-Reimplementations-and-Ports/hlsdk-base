@@ -65,6 +65,7 @@ typedef int BOOL;
 #include <cstdio>
 #include <cstdlib>
 #include "minmax.h"
+#include "commonmacros.h"
 #ifndef _WIN32
 # define _vsnprintf(a,b,c,d) vsnprintf(a,b,c,d)
 #endif

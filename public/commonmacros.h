@@ -19,7 +19,7 @@
 #define STRING_MATCHES_ID( p, id )		( (*((int *)(p)) == (id) ) ? true : false )
 #define ID_TO_STRING( id, p )			( (p)[3] = (((id)>>24) & 0xFF), (p)[2] = (((id)>>16) & 0xFF), (p)[1] = (((id)>>8) & 0xFF), (p)[0] = (((id)>>0) & 0xFF) )
 
-#define ARRAYSIZE(p)		(sizeof(p)/sizeof(p[0]))
+#define ARRAY_SIZE(p)		(sizeof(p)/sizeof(p[0]))
 
 
 #endif		// COMMONMACROS_H

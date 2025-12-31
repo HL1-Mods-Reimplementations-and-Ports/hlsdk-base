@@ -32,6 +32,7 @@ extern "C" {
 #include "r_efx.h"
 #include "studio_event.h"
 #include "minmax.h"
+#include "commonmacros.h"
 
 #ifdef _WIN32
 #define NOMINMAX
