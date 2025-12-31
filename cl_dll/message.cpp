@@ -147,6 +147,7 @@ void CHudMessage::MessageScanNextChar( void )
 	srcRed = m_parms.pMessage->r1;
 	srcGreen = m_parms.pMessage->g1;
 	srcBlue = m_parms.pMessage->b1;
+	destRed = destGreen = destBlue = 0;
 	blend = 0;	// Pure source
 
 	switch( m_parms.pMessage->effect )
