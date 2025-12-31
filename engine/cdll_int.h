@@ -44,7 +44,7 @@ extern "C" {
 // so make sure engine declarations aren't done twice
 
 typedef int HANDLE_SPRITE;	// handle to a graphic
-#define HSPRITE HANDLE_SPRITE
+typedef HANDLE_SPRITE HLSPRITE;
 
 #define SCRINFO_SCREENFLASH 1
 #define SCRINFO_STRETCHED	2
