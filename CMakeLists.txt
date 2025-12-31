@@ -1,6 +1,6 @@
 # Solution configuration
 
-cmake_minimum_required(VERSION 3.21)
+cmake_minimum_required(VERSION 4.2.1)
 project(projects VERSION 1.0.1 LANGUAGES CXX)
 
 set(MOD_ARCHIVE_DIR "" CACHE PATH "Absolute path where to save the mod archive.")
