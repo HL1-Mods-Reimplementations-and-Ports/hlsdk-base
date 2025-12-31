@@ -28,7 +28,7 @@
 class CNihilanth : public CBaseMonster
 {
 public:
-	int		Save( CSave &save );
+	int		Save( CSave &save ); 
 	int		Restore( CRestore &restore );
 	static	TYPEDESCRIPTION m_SaveData[];
 
@@ -884,7 +884,7 @@ void CNihilanth :: HuntThink( void )
 		}
 		else
 		{
-			m_flAdj = std::min( m_flAdj + 10, 1000.0f );
+			m_flAdj = std::min( m_flAdj + 10.0f, 1000.0f );
 		}
 	}
 

@@ -116,15 +116,22 @@ void VectorMA (const float *veca, float scale, const float *vecb, float *vecc)
 
 HSPRITE LoadSprite(const char *pszName)
 {
-	int i;
+	int iRes;
 	char sz[256]; 
 
-	if (ScreenWidth < 640)
-		i = 320;
+#if !defined( _TFC )
+	if (ScreenWidth > 2560 && ScreenHeight > 1600)
+		iRes = 2560;
+	else if (ScreenWidth >= 1280 && ScreenHeight > 720)
+		iRes = 1280;
+	else 
+#endif
+	if (ScreenWidth >= 640)
+		iRes = 640;
 	else
-		i = 640;
+		iRes = 320;
 
-	std::sprintf(sz, pszName, i);
+	std::sprintf(sz, pszName, iRes);
 
 	return SPR_Load(sz);
 }
