@@ -34,6 +34,7 @@ extern "C" {
 #include "minmax.h"
 
 #ifdef _WIN32
+#define NOMINMAX
 #include "winsani_in.h"
 #include <windows.h>
 #include "winsani_out.h"
