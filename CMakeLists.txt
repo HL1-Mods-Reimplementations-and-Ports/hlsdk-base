@@ -142,5 +142,3 @@ endif()
 
 # Installation
 install(DIRECTORY mod_files/ DESTINATION .)
-install(CODE "execute_process(COMMAND cmd /C \"echo Running mod setup...\")")
-install(CODE "execute_process(COMMAND cmd /C \"call SETUP.bat\" WORKING_DIRECTORY \"${MOD_DIR}\")")

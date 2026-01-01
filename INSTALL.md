@@ -7,6 +7,5 @@
    ```text
    release\base -> C:\Program Files (x86)\Steam\steamapps\common\Half-Life\base
    ```
-3. Run SETUP.bat
-4. Restart Steam
-5. Launch the mod
+3. Restart Steam
+4. Launch the mod
