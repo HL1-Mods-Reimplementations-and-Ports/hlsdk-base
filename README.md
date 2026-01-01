@@ -26,7 +26,7 @@ See [building instructions](BUILDING.md).
 
 |Command|Description|
 |:--|:--|
-|modinfo|Display the mod description and version|
+|modinfo|Display the mod description, version, branch (if build metadata is enabled) and revision (if build metadata is enabled)|
 
 ## Contributing
 

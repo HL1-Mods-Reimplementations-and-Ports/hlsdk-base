@@ -598,6 +598,10 @@ void ClientCommand( edict_t *pEntity )
 		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, "\n");
 		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs("Description: %s\n", HLSDK_MOD_DESCRIPTION));
 		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs("Version: %s\n", HLSDK_MOD_VERSION_FULL_STRING));
+#if HLSDK_MOD_BUILD_METADATA_ENABLED
+		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs("Build branch: %s\n", HLSDK_MOD_BUILD_METADATA_BRANCH));
+		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs("Build revision: %s\n", HLSDK_MOD_BUILD_METADATA_REVISION));
+#endif
 		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, "\n");
 	}
 	else if ( g_pGameRules->ClientCommand( GetClassPtr((CBasePlayer *)pev), pcmd ) )
