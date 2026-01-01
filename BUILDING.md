@@ -19,11 +19,7 @@ The following variables must be configured.
   C:\Program Files (x86)\steamapps\common\Half-Life\<MyMod>
   ```
 
-- `ENABLE_MOD_ARCHIVE`: Whether or not to add the archive project.
-
-  - `MOD_ARCHIVE_DIR`: The directory where the archive will be saved.
-
-  - `MOD_ARCHIVE_FOLDER`: The name of the archive folder in which temporary files will be copied before compression. This folder will be created inside the directory specified by `MOD_ARCHIVE_DIR` and the compressed archive file will have the same name.
+- `CPACK_PACKAGE_NAME`: Prefix to prepend to the name of the mod package.
 
 ## First Time Build
 
@@ -36,7 +32,7 @@ Build the `INSTALL` project. This will build `hl_cdll` and `hldll` projects and 
 
 ## Projects
 
-- `INSTALL`: Builds hl_cdll and hldll projects, copies all mod files to the mod directory, runs the setup script.
 - `hl_cdll`: Game client project
 - `hldll`: Game server project
-- `mod_archive`: Creates a compressed archive of all mod data.
+- `INSTALL`: Builds hl_cdll and hldll projects, copies all mod files to the mod directory.
+- `PACKAGE`: Builds everything and creates the mod package.
