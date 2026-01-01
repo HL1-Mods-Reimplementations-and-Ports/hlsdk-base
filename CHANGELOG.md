@@ -14,6 +14,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Visual Studio 2026 support
 - 25th anniversary changes
 
+### Changed
+
+- CPack is now used for mod packaging
+
+### Removed
+
+- CMake option ENABLE_MOD_ARCHIVE
+- CMake option MOD_ARCHIVE_DIR
+- CMake option MOD_ARCHIVE_FOLDER
+
 ## [1.0.1] - 2025-12-21
 
 ### Fixed
