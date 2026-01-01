@@ -899,6 +899,6 @@ void GameDLLInit( void )
 	SERVER_COMMAND( "exec skill.cfg\n" );
 
 	// Display mod info.
-	ALERT( at_console, "Game DLL: %s %s\n", HLSDK_MOD_DESCRIPTION, HLSDK_MOD_VERSION );
+	ALERT( at_console, "Game DLL: %s %s\n", HLSDK_MOD_DESCRIPTION, HLSDK_MOD_VERSION_FULL_STRING );
 }
 

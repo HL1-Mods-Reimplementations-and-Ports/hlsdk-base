@@ -595,7 +595,10 @@ void ClientCommand( edict_t *pEntity )
 	}
 	else if ( FStrEq( pcmd, "modinfo" )  ) // Display mod info.
 	{
-		ClientPrint( &pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs( "%s %s\n", HLSDK_MOD_DESCRIPTION, HLSDK_MOD_VERSION ) );
+		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, "\n");
+		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs("Description: %s\n", HLSDK_MOD_DESCRIPTION));
+		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, UTIL_VarArgs("Version: %s\n", HLSDK_MOD_VERSION_FULL_STRING));
+		ClientPrint(&pEntity->v, HUD_PRINTCONSOLE, "\n");
 	}
 	else if ( g_pGameRules->ClientCommand( GetClassPtr((CBasePlayer *)pev), pcmd ) )
 	{

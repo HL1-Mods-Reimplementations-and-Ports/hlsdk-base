@@ -158,7 +158,7 @@ int CL_DLLEXPORT Initialize( cl_enginefunc_t *pEnginefuncs, int iVersion )
 	// get tracker interface, if any
 
 	// Display mod info.
-	gEngfuncs.Con_Printf( "Client DLL: %s %s\n", HLSDK_MOD_DESCRIPTION, HLSDK_MOD_VERSION );
+	gEngfuncs.Con_Printf( "Client DLL: %s %s\n", HLSDK_MOD_DESCRIPTION, HLSDK_MOD_VERSION_FULL_STRING );
 
 	return 1;
 }
