@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Build metadata to CMake and `modinfo`
+- Prerelease version support to CMake and `modinfo`
+- Visual Studio 2026 support
+- 25th anniversary changes
+
 ## [1.0.1] - 2025-12-21
 
 ### Fixed
