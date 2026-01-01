@@ -6,8 +6,8 @@ See [supported platforms](README.md#Supported-Platforms).
 
 ## Prerequisites
 
-- CMake 3.21 or higher
-- Visual Studio 2019
+- CMake 4.2.1 or higher
+- Visual Studio 2026
 
 ## Configuring CMake
 
