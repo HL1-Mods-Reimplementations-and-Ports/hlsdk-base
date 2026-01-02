@@ -164,8 +164,8 @@ inline int safe_sprintf( char *dst, int len_dst, const char *format, ...)
 }
 
 // sound functions
-inline void PlaySound( char *szSound, float vol ) { gEngfuncs.pfnPlaySoundByName( szSound, vol ); }
-inline void PlaySound( int iSound, float vol ) { gEngfuncs.pfnPlaySoundByIndex( iSound, vol ); }
+inline void PLAY_SOUND( char *szSound, float vol ) { gEngfuncs.pfnPlaySoundByName( szSound, vol ); }
+inline void PLAY_SOUND( int iSound, float vol ) { gEngfuncs.pfnPlaySoundByIndex( iSound, vol ); }
 
 void ScaleColors( int &r, int &g, int &b, int a );
 
