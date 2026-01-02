@@ -22,6 +22,10 @@ set(COMPILE_DEFS_RELEASE
 )
 
 # Compile options
+set(COMPILE_OPTS_BASE
+  /Zc:strictStrings-
+)
+
 set(COMPILE_OPTS_DEBUG
   /MTd # Runtime library
 )
@@ -229,6 +233,7 @@ target_compile_definitions(${TARGET_NAME} PRIVATE
 )
 
 target_compile_options(${TARGET_NAME} PRIVATE
+  ${COMPILE_OPTS_BASE}
   $<IF:$<CONFIG:Debug>,${COMPILE_OPTS_DEBUG},${COMPILE_OPTS_RELEASE}>
 )
 
