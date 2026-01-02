@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
+- C++20 support
 - Build metadata to CMake and `modinfo`
 - Prerelease version support to CMake and `modinfo`
 - Visual Studio 2026 support
