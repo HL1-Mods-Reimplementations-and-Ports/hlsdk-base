@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Fix various instances of Houndeyes not correctly blinking/closing eyes ([e5f9c39](https://github.com/twhl-community/halflife-updated/commit/e5f9c393348fb42bcb3e8618f162f4bf43450db0)) (Thanks Revenant100)
 - Restoring Houndeye's squad leader leaderlook animation ([c718785](https://github.com/twhl-community/halflife-updated/commit/c718785acd5baae691f504875597156e8d64622c)) (Thanks Revenant100)
 
 ### Changed
