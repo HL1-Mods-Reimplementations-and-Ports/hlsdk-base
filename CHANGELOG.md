@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Restore scientist's fear display animation ([992e4cf](https://github.com/twhl-community/halflife-updated/commit/992e4cf79871f4c43dbdc5bee099ac0e0abb51c9)) (Thanks Revenant100)
 - Restore scientist's sense of smell ([1d88ba8](https://github.com/twhl-community/halflife-updated/commit/1d88ba86faa46aa9554d962399bea18d0045bbe4)) (Thanks Revenant100)
 - Restore being able to damage AFlocks ([ab037f6](https://github.com/twhl-community/halflife-updated/commit/ab037f6d7b9498bb8bbf4517f0adaf4df5c87487)) (Thanks Revenant100)
 - Fix scientists not fearing Alien Grunts and Bullsquids ([75bf517](https://github.com/twhl-community/halflife-updated/commit/75bf517d1e9d828b89ae99035142134f0ffff932)) (Thanks Revenant100)
