@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Fix incorrect for loop variable scope breaking team selection logic ([36380cd](https://github.com/twhl-community/halflife-updated/commit/36380cd0c96798432260ea66a54db23ea1e9ca61)) (Thanks Solokiller)
 - Fix incorrect uses of sprintf ([8a64f04](https://github.com/twhl-community/halflife-updated/commit/8a64f04ce679f6d593fa9c6caa5a246daea394ae)) (Thanks Solokiller)
 - Fix scientists not disregarding enemy after hiding ([fc8c85f](https://github.com/twhl-community/halflife-updated/commit/fc8c85f3dccb4f80669f6ff15d406b9fe92a2629)) (Thanks Revenant100)
 - Removing redundant scientist scream ([f748eb8](https://github.com/twhl-community/halflife-updated/commit/f748eb8c8a19894da0d13abb577fbcb89a5c744e)) (Thanks Revenant100)
