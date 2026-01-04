@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Make sure string buffers are large enough for format operations ([d7e6c42](https://github.com/twhl-community/halflife-updated/commit/d7e6c42b5dd6606ad97f79bd92278cd6d3721c66)) (Thanks Solokiller)
 - Make sure string buffer is large enough for format operation ([c327550](https://github.com/twhl-community/halflife-updated/commit/c3275508993a757b5310b4376cfb582f0b3ac498)) (Thanks Solokiller)
 - Correctly scope for loop variables to silence compiler warnings ([8cde048](https://github.com/twhl-community/halflife-updated/commit/8cde04881e8aa329a539e80f82330ea2f1c9932c)) (Thanks Solokiller)
 - Fix invalid uses of NULL macro ([7be78fe](https://github.com/twhl-community/halflife-updated/commit/7be78fe21ab522fff79f04100fab274f4bfee77a)) (Thanks Solokiller)
