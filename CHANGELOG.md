@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Correctly scope for loop variables to silence compiler warnings ([8cde048](https://github.com/twhl-community/halflife-updated/commit/8cde04881e8aa329a539e80f82330ea2f1c9932c)) (Thanks Solokiller)
 - Fix invalid uses of NULL macro ([7be78fe](https://github.com/twhl-community/halflife-updated/commit/7be78fe21ab522fff79f04100fab274f4bfee77a)) (Thanks Solokiller)
 - Remove EHANDLE::operator int ([3bf4413](https://github.com/twhl-community/halflife-updated/commit/3bf44134c4b65d06975fcf2aec89fbdedd993660)) (Thanks Solokiller)
 - Use 0 instead of NULL to set HSPRITE handle to nothing ([47edc4d](https://github.com/twhl-community/halflife-updated/commit/47edc4dd332baaa937764652f505922518f185a7)) (Thanks Solokiller)
