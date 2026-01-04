@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Fix chainsaw crowbar effect when hitting corpse ([511c6ef](https://github.com/twhl-community/halflife-updated/commit/511c6ef6271692ec391bee61e53addc6dbe79fa6)) (Thanks Solokiller)
 - Add null check to bullsquid spit attack animation event to prevent crash if enemy pointer is cleared between animation start and animation event occurrence ([4544719](https://github.com/twhl-community/halflife-updated/commit/454471956c7a4fe5c22a09c382afa4cb439c7702)) (Thanks Solokiller)
 - Add check to make sure fread calls succeeded before using results ([d737eb4](https://github.com/twhl-community/halflife-updated/commit/d737eb4649d10e01dbfcfba455068ba6323506ae)) (Thanks Solokiller)
 - Add error check to getcwd call to prevent potential garbage paths from being used to load libraries ([66ce8bb](https://github.com/twhl-community/halflife-updated/commit/66ce8bb0fbfb6de185c4f4250ea3f6141fd1babc)) (Thanks Solokiller)
