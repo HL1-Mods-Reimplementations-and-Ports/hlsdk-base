@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Add error check to getcwd call to prevent potential garbage paths from being used to load libraries ([66ce8bb](https://github.com/twhl-community/halflife-updated/commit/66ce8bb0fbfb6de185c4f4250ea3f6141fd1babc)) (Thanks Solokiller)
 - Increase buffer sizes to ensure all potential inputs can fit without overflowing the buffer ([faca810](https://github.com/twhl-community/halflife-updated/commit/faca8108f2a5180add4dc657624e0ebe71f7947a)) (Thanks Solokiller)
 - Remove obsolete macros & conditional code compilation ([1c85751](https://github.com/twhl-community/halflife-updated/commit/1c857514f39a97da4140e844b83c45aa33622179)) (Thanks Solokiller)
 - Make sure string buffers are large enough for format operations ([d7e6c42](https://github.com/twhl-community/halflife-updated/commit/d7e6c42b5dd6606ad97f79bd92278cd6d3721c66)) (Thanks Solokiller)
