@@ -15,7 +15,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Visual Studio 2026 support
 - 25th anniversary changes
 
-### Fixed
+### Changed
+
+- CPack is now used for mod packaging
+
+### Removed
+
+- CMake option ENABLE_MOD_ARCHIVE
+- CMake option MOD_ARCHIVE_DIR
+- CMake option MOD_ARCHIVE_FOLDER
+
+### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
 - Fix invalid uses of NULL macro ([7be78fe](https://github.com/twhl-community/halflife-updated/commit/7be78fe21ab522fff79f04100fab274f4bfee77a)) (Thanks Solokiller)
@@ -33,16 +43,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fix scientists not fearing Alien Grunts and Bullsquids ([75bf517](https://github.com/twhl-community/halflife-updated/commit/75bf517d1e9d828b89ae99035142134f0ffff932)) (Thanks Revenant100)
 - Fix various instances of Houndeyes not correctly blinking/closing eyes ([e5f9c39](https://github.com/twhl-community/halflife-updated/commit/e5f9c393348fb42bcb3e8618f162f4bf43450db0)) (Thanks Revenant100)
 - Restoring Houndeye's squad leader leaderlook animation ([c718785](https://github.com/twhl-community/halflife-updated/commit/c718785acd5baae691f504875597156e8d64622c)) (Thanks Revenant100)
-
-### Changed
-
-- CPack is now used for mod packaging
-
-### Removed
-
-- CMake option ENABLE_MOD_ARCHIVE
-- CMake option MOD_ARCHIVE_DIR
-- CMake option MOD_ARCHIVE_FOLDER
 
 ## [1.0.1] - 2025-12-21
 
