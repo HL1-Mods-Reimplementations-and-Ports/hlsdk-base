@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Fix autoaim angles not resetting if autoaim is disabled while aiming at a target ([beb9f35](https://github.com/twhl-community/halflife-updated/commit/beb9f35e4ca4008369889fd8722c95220dc44a4d)) (Thanks Solokiller)
 - Fix weapon being left behind when picking up ammo from it ([d42b905](https://github.com/twhl-community/halflife-updated/commit/d42b905be6aa0d12a2a4615fc84273958ed2f315)) (Thanks Solokiller)
 - Fix Python repeatedly playing dry fire sound & glitching animation when holding primary attack with empty magazine ([75bc5af](https://github.com/twhl-community/halflife-updated/commit/75bc5af5ab62a387a07f69edd34b42ebb12e8fe1)) (Thanks Solokiller)
 - Fix server not staying in sync with client when handling weapon attack times ([b466921](https://github.com/twhl-community/halflife-updated/commit/b4669215d0bff76b6051a8f79c50917d4c75d277) and [343ebf2](https://github.com/twhl-community/halflife-updated/commit/343ebf2495e96eb3a5adda4d0ab0f28065be4c83)) (Thanks Solokiller)
