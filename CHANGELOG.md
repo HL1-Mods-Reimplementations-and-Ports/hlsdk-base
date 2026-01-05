@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Community fixes
 
+- Stop controlling func_tank on disconnect  ([de2751c](https://github.com/twhl-community/halflife-updated/commit/de2751ca4127d0e98bca1d15e9566d1118fbb1c8)) (Thanks Solokiller)
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
 - Fix gauss gun beams having wrong color and brightness compared to WON ([c7f0146](https://github.com/twhl-community/halflife-updated/commit/c7f014621f77b742464d3cec5c9148083c3ffc02)) (Thanks Solokiller)
 - Fix autoaim angles not resetting if autoaim is disabled while aiming at a target ([beb9f35](https://github.com/twhl-community/halflife-updated/commit/beb9f35e4ca4008369889fd8722c95220dc44a4d)) (Thanks Solokiller)
