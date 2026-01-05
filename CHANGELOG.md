@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Community fixes
 
+- Use MAX_WEAPONS for array of weapons ([7004da2](https://github.com/twhl-community/halflife-updated/commit/7004da281a5bdd420aaadb4daf529a3c8c06eb31)) (Thanks Solokiller)
 - Fix weapon prediction allowing multiple reload actions instead of just one ([17efd5a](https://github.com/twhl-community/halflife-updated/commit/17efd5a5eaceac904698d616ea105765c388dec2)) (Thanks Solokiller)
 - Fix Egon looping fire sound playing twice sometimes ([c11f625](https://github.com/twhl-community/halflife-updated/commit/c11f62545bd0a94dfbcd0cfcd4394b450d3c6e27)) (Thanks Solokiller)
 - Fix egon creating fake beam when holding secondary attack key ([5dff980](https://github.com/twhl-community/halflife-updated/commit/5dff9808d7a605663cc7e8ab5ff70b76a6da3eb3)) (Thanks Solokiller)
