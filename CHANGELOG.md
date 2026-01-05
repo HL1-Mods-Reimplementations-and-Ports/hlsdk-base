@@ -28,6 +28,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Community fixes
 
 - Always return m_iSecondaryAmmoType from CBasePlayerWeapon::SecondaryAmmoIndex  ([34ce0e3](https://github.com/twhl-community/halflife-updated/commit/34ce0e346060a2b4b40c941af6c6d2bb18b3023b)) (Thanks Solokiller)
+- Fix Python repeatedly playing dry fire sound & glitching animation when holding primary attack with empty magazine ([75bc5af](https://github.com/twhl-community/halflife-updated/commit/75bc5af5ab62a387a07f69edd34b42ebb12e8fe1)) (Thanks Solokiller)
 - Fix server not staying in sync with client when handling weapon attack times ([b466921](https://github.com/twhl-community/halflife-updated/commit/b4669215d0bff76b6051a8f79c50917d4c75d277) and [343ebf2](https://github.com/twhl-community/halflife-updated/commit/343ebf2495e96eb3a5adda4d0ab0f28065be4c83)) (Thanks Solokiller)
 - Fix chainsaw crowbar effect when hitting corpse ([511c6ef](https://github.com/twhl-community/halflife-updated/commit/511c6ef6271692ec391bee61e53addc6dbe79fa6)) (Thanks Solokiller)
 - Add null check to bullsquid spit attack animation event to prevent crash if enemy pointer is cleared between animation start and animation event occurrence ([4544719](https://github.com/twhl-community/halflife-updated/commit/454471956c7a4fe5c22a09c382afa4cb439c7702)) (Thanks Solokiller)
