@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Community fixes
 
+- Fix Human Grunt shotgun damage not using correct skill values ([c73c240](https://github.com/twhl-community/halflife-updated/commit/c73c240222beca43b72cbd5ce97dd3d336fb4002)) (Thanks Solokiller)
 - Fix Egon gun beam colors being too bright ([d5ef55b](https://github.com/twhl-community/halflife-updated/commit/d5ef55b5e847f949345b470631191eee0abe84b1)) (Thanks Solokiller)
 - Restore player view entity on save game load ([5fd0acb](https://github.com/twhl-community/halflife-updated/commit/5fd0acb89e148e2cfaef19bb7740cb71a1cdb076)) (Thanks Solokiller)
 - Use MAX_WEAPONS for array of weapons ([7004da2](https://github.com/twhl-community/halflife-updated/commit/7004da281a5bdd420aaadb4daf529a3c8c06eb31)) (Thanks Solokiller)
