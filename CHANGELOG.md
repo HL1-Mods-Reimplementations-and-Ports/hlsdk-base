@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Community fixes
 
+- Use enough bits for entity skin variables to fix sprite attachment bug ([c1f470c](https://github.com/twhl-community/halflife-updated/commit/c1f470c68047fca16fe48c4f7c0bce375d207c80)) (Thanks Solokiller)
 - Ensure flashlight sprites have enough space between them and death notice text ([48b455c](https://github.com/twhl-community/halflife-updated/commit/48b455cc8373682c3883071f857c48c8912364db)) (Thanks Solokiller)
 - Fix Human Grunt shotgun damage not using correct skill values ([c73c240](https://github.com/twhl-community/halflife-updated/commit/c73c240222beca43b72cbd5ce97dd3d336fb4002)) (Thanks Solokiller)
 - Fix Egon gun beam colors being too bright ([d5ef55b](https://github.com/twhl-community/halflife-updated/commit/d5ef55b5e847f949345b470631191eee0abe84b1)) (Thanks Solokiller)
