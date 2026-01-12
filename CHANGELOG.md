@@ -27,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Community fixes
 
+- Fix monsters being resurrected if triggered while dying ([08975b8](https://github.com/twhl-community/halflife-updated/commit/08975b8d4c67adbe7b659e60d84b3fbecbcd15ce)) (Thanks Solokiller)
 - Use enough bits for entity skin variables to fix sprite attachment bug ([c1f470c](https://github.com/twhl-community/halflife-updated/commit/c1f470c68047fca16fe48c4f7c0bce375d207c80)) (Thanks Solokiller)
 - Ensure flashlight sprites have enough space between them and death notice text ([48b455c](https://github.com/twhl-community/halflife-updated/commit/48b455cc8373682c3883071f857c48c8912364db)) (Thanks Solokiller)
 - Fix Human Grunt shotgun damage not using correct skill values ([c73c240](https://github.com/twhl-community/halflife-updated/commit/c73c240222beca43b72cbd5ce97dd3d336fb4002)) (Thanks Solokiller)
